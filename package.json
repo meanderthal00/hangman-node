@@ -19,5 +19,8 @@
   "keywords": [
     "node.js",
     "hangman"
-  ]
+  ],
+  "dependencies": {
+    "inquirer": "^5.0.0"
+  }
 }
