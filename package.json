@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/meanderthal00/hangman-node.git"
   },
-  "author": "",
+  "author": "rjcdev",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/meanderthal00/hangman-node/issues"
   },
-  "homepage": "https://github.com/meanderthal00/hangman-node#readme"
+  "homepage": "https://github.com/meanderthal00/hangman-node#readme",
+  "keywords": [
+    "node.js",
+    "hangman"
+  ]
 }
