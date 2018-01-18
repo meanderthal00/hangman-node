@@ -22,7 +22,7 @@ var hangMan = {
             this.lettersGuessed = [];
         }
         inquirer.prompt([{
-            name: play,
+            name: "play",
             type: "confirm",
             message: "The Mads are calling, answer?"
         }]).then(function (answer) {
@@ -34,8 +34,20 @@ var hangMan = {
         })},
 
 
+        // If they confirm, start a new game
+        newGame: function() {
+            if(this.remainingGuesses ===10) {
+                console.log("Here we go!");
+                console.log("====================");
+                // generating a random number to select from wordArray
+                var randoWord = Math.floor(Math.random()*this.words.length);
 
-        
+            }
+        }
+
+
+
+
     
 
 

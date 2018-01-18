@@ -3,3 +3,6 @@ console.log("game.js loaded");
 exports.newWords = { 
     wordArray: ["Joel", "Mike", "Jonah", "Crow", "Tom Servo", "Gypsy", "Cambot", "Kinga", "Max", "Tv's Frank", "Dr. Forrester", "Pearl", "Satellite of Love", "Deep Thirteen"]
 };
+
+
+// this file should export to main.js
